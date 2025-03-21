@@ -2639,7 +2639,7 @@ expo-constants@~17.0.8:
     "@expo/config" "~10.0.11"
     "@expo/env" "~0.4.2"
 
-expo-dev-client@^5.0.15:
+expo-dev-client@~5.0.14:
   version "5.0.15"
   resolved "https://registry.yarnpkg.com/expo-dev-client/-/expo-dev-client-5.0.15.tgz#5a4123cc1aad3c8a1e2420389f53f5b59d66d3a6"
   integrity sha512-G7DtHTYpbehafMnNEqWs4COsIS0TZe5qiO382q6JwOXH1Lpd8JoJ/PZGXUe9a4C/8KDg7iqLXnyiABzidDGecA==
@@ -2724,6 +2724,11 @@ expo-modules-core@2.2.3:
   integrity sha512-01QqZzpP/wWlxnNly4G06MsOBUTbMDj02DQigZoXfDh80vd/rk3/uVXqnZgOdLSggTs6DnvOgAUy0H2q30XdUg==
   dependencies:
     invariant "^2.2.4"
+
+expo-network@~7.0.5:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/expo-network/-/expo-network-7.0.5.tgz#14d5b001850d77b23bd0b0f37b2b5ea0e1f64a97"
+  integrity sha512-5dlowKAimhIDN1/lBRnN6SSH6c07f12R3QrfLf3b3GEr6D+EijH2wE537mmwPh1p+254LAkm0Z5ZEXxbwII4sA==
 
 expo-status-bar@~2.0.1:
   version "2.0.1"
