@@ -7,7 +7,9 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1, justifyContent: 'center', padding: 20 }}>
-        <ProfileCard />
+        <ProfileCard firstName={'Codiku'} lastName={'TheDev'} age={30} isOpenToWork={ true }>
+         <View style={style.workAvailability} />
+        </ProfileCard>
       </SafeAreaView>
     </SafeAreaProvider>
   )

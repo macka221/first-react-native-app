@@ -3,16 +3,18 @@ import { profileStyles } from './profile-card.style';
 import { profileCardImageUrl } from './constants/constants';
 import { FontAwesome } from '@expo/vector-icons';
 
-export function ProfileCard() {
+export function ProfileCard({ firstName, lastName, age, children }) {
   return (
   <View style={ profileStyles.container }>
       <View style={ profileStyles.header }>
         <View>
-          <Image style={ profileStyles.avatar } source={{ uri: profileCardImageUrl }} />
+          <Image style={ profileStyles.avatar } source={{ uri:  'https://i.pravatar.cc/300' }} />
         </View>
-        <View style={ profileStyles.textContent }>
-          <Text style={ profileStyles.name }>Codiku TheDev</Text>
-          <Text>Hi I am a React Native Developer, let's get in touch</Text>
+        <View style={ profileStyles.textContent }> 
+          <Text style={ profileStyles.name }>
+            { children } { firstName } { lastName }
+          </Text>
+          <Text>Hi I am a { age } React Native Developer, let's get in touch</Text>
         </View>
       </View>
       <View style={ profileStyles.social }>
