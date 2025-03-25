@@ -1,6 +1,7 @@
 import { TouchableOpacity, Image, View, Text } from 'react-native';
 import { profileStyles } from './profile-card.style';
 import { profileCardImageUrl } from './constants/constants';
+import { FontAwesome } from '@expo/vector-icons';
 
 export function ProfileCard() {
   return (
@@ -15,6 +16,15 @@ export function ProfileCard() {
         </View>
       </View>
       <View style={ profileStyles.social }>
+        <TouchableOpacity style={ profileStyles.socialButton }>
+          <FontAwesome name='twitter' size={24} color='#1DA1F2' />
+        </TouchableOpacity>
+        <TouchableOpacity style={ profileStyles.socialButton }>
+          <FontAwesome name='linkedin-square' size={24} color='#0A66C2' />
+        </TouchableOpacity>
+        <TouchableOpacity style={ profileStyles.socialButton }>
+          <FontAwesome name='github' size={24} color='#333' />
+        </TouchableOpacity>
       </View>
   </View>
   )

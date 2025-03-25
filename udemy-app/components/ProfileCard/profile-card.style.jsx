@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const profileStyles = StyleSheet.create({
   container: {
+    borderRadius: 10,
     backgroundColor: 'white',
     elevation: 8,
     shadowColor: "#000",
@@ -30,5 +31,14 @@ export const profileStyles = StyleSheet.create({
     flex: 1,
     paddingLeft: 15,
   },
-  social: {},
+  social: {
+    justifyContent: 'space-evenly',
+    flexDirection: 'row',
+    padding: 10,
+  },
+  socialButton: {
+    borderRadius: 50,
+    padding: 10,
+    backgroundColor: '#eee'
+  }
 })
