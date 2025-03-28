@@ -10,13 +10,13 @@ export function ProfileCard({ firstName, lastName, age, children }) {
 
     switch (socialMedia) {
       case 'twitter':
-        url = 'http://github.com/codiku';
+        url = 'http://example.com';
         break;
       case 'github':
-        url = 'http://github.com/codiku';
+        url = 'http://github.com/macka221';
         break;
-      case 'twitter':
-        url = 'http://github.com/codiku'
+      case 'linkedin':
+        url = 'http://linkedin.com/in/zachare-lofton1997';
         break;
       default:
         break;

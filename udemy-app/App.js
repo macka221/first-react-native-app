@@ -11,8 +11,8 @@ export default function App() {
         {Platform.OS === 'android' && <Text>On Android Device</Text>}
         {Platform.OS === 'ios' && <Text>On Iphone or other IOS device</Text>}
         <ProfileCard 
-          firstName={'Codiku'}
-          lastName={'TheDev'}
+          firstName={'Zach'}
+          lastName={'Lofton'}
           age={30}
           isOpenToWork
         >
